@@ -1,0 +1,11 @@
+app-doencas-card{
+  margin: 5px;
+  display: block;
+}
+h1{
+  text-align: center;
+  font-weight: bold;
+  }
+.body{
+  background-color: rgb(194, 212, 245);
+}

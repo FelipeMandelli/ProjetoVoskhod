@@ -1,0 +1,16 @@
+img {
+  max-width: 90vw;
+  border-radius: 5px;
+}
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.doencas{
+  text-align: center;
+  font-size: 20px;
+}
+mat-card{
+  background-color: rgb(194, 212, 245);
+}

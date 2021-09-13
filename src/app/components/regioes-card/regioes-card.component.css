@@ -1,0 +1,26 @@
+.Id {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+img {
+  max-width: 90vw;
+  border-radius: 5px;
+}
+.cid {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.titulo{
+  text-align: center;
+}
+.titulo .dados{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+mat-card{
+  background-color: rgb(194, 212, 245);
+}

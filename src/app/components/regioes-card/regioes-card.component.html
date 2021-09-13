@@ -1,0 +1,22 @@
+<mat-card>
+  <div>
+    <h1 class="Id" >Região {{Regiao?.id}}</h1>
+  </div>
+
+  <img [src]="Regiao?.imagem">
+​
+  <div class="cid">
+    <span>{{Regiao?.cidade}}</span>
+
+    <span >{{Regiao?.regiao}}</span>
+  </div>
+
+  <div >
+    <h3 class="titulo">Dados dos Problemas:</h3>
+      <span *ngFor= "let problema of Regiao?.problemas" class = "dados">
+        {{problema.descricao}}
+        {{problema.porcentagem}} % <br>
+      </span>
+    </div>
+
+</mat-card>
